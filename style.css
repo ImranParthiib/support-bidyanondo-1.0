@@ -1,0 +1,386 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%; 
+    border-right: 4.5px solid rgba(0, 0, 0, 0.708); 
+    border-left: 4.5px solid rgba(0, 0, 0, 0.708);
+    border-bottom: 4.5px solid rgba(0, 0, 0, 0.708);
+    
+}
+.banner{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0),rgba(10, 10, 10, 0.991)),url('banner.o.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    color: white;
+    display: flex;
+    width: 1440px;
+    height: 669px;
+    width: 100%;
+    padding-top: 7px;
+    
+    
+ 
+}
+ 
+#half-width{
+    width:60%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 5%;
+    color: aliceblue;
+    position: absolute;
+      
+}
+#half-width h1{
+    font: weight 700;
+    font-size: 65px;
+    line-height: 78.66px;
+    
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 3px; 
+
+}
+#half-width h4{
+    color: rgb(251, 251, 251);
+    text-size-adjust: 18px;
+    line-height: 28px;
+    padding-bottom: 1cm;
+    letter-spacing: 1.6px; 
+
+}
+
+#option-one{
+    text-decoration: none;
+    background: tomato;
+    margin-left: 13cm;
+    margin-bottom: 10cm;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.help{
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 0.5px; 
+}      
+#design{
+    font-size: 45px;
+    font: weight 700;
+    line-height: 54px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;letter-spacing: 1px; 
+
+}
+ #opacity{
+   color: #757070d3;
+   font-family:'Poppins';
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 28px;
+   line-height: 104%;
+   vertical-align: top;
+   letter-spacing: 1px; 
+ }
+
+
+.line{
+    margin-left: 8.5cm;
+    margin-right: 8.5cm;
+}
+.position{
+    padding-top: 35px;
+    
+}
+  #option-two{
+    text-decoration: none;
+    background: #FF5959;
+    position: center;
+    margin-bottom: 10cm;
+    padding: 16px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 19px;
+    font-family: sans-serif;
+
+   }
+   
+   .box{
+    padding-top: 17px;
+   }
+    
+#one{
+    display:inline-block;margin-right:20px;
+    background: #f8f6f6ea;
+    border-radius: 7px;
+    padding-left: 0.5cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 0.5cm;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 2px; 
+    }
+
+#two {
+    display:inline-block;margin-right:20px;
+    font-size: 30px;
+    color: #FF5959;
+    font-weight: bold;
+    background: #fae3e3b5;
+    border: 2.5px solid rgba(247, 102, 102, 0.893); 
+    border-radius: 7px;
+    padding-left: 0.5cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 0.5cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 2px; 
+    }
+#three{
+    display:inline-block;margin-right:20px;
+    background: #f8f6f6ea;
+    border-radius: 7px;
+    padding-left: 0.5cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 0.5cm;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 2px; 
+    } 
+#four {
+    display:inline-block;margin-right:20px;
+    background: #f8f6f6ea;
+    border-radius: 7px;
+    padding-left: 0.3cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 0.3cm;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 2px; 
+    }
+
+#five {
+    display:inline-block;
+    background: #f8f6f6ea;
+    border-radius: 7px;
+    padding-left: 0.3cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 0.3cm;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 2px; 
+    }
+    .sec03{
+        padding-top: 100px;
+    }
+    .section3{
+        text-align: center;
+        letter-spacing: 0.5px; 
+    }
+    #projects{
+        font-size: 45px;
+        font: weight 700;
+        line-height: 54px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;letter-spacing: 1px; 
+    }
+
+   .move{
+    padding-top: 25px;
+    max-width: 100%;
+    align-items: center;
+   }
+   .zakat{
+    display:inline-block;margin-right:8px;
+    max-width: 23%;
+    margin-left: 3.5cm;
+    background:#e9f7f8f9;
+    padding: 0.5cm;
+    border-radius: 5px;
+}
+.zakat img{
+    margin-left: 0% ;
+    width: 80px;
+    height: 80px;
+     padding-top: 0.5cm;
+
+}
+   .orphan{
+    display:inline-block;margin-right:8px;
+    max-width: 23%;
+    margin-left: 0.1cm;
+    background: #f5e8e6;
+    padding: 0.5cm;
+    border-radius: 5px;
+}
+  
+   .orphan img{
+    margin-left: 0% ;
+     width: 80px;
+     height: 80px;
+     padding-top: 0.5cm;
+   }
+   .flood{
+    display:inline-block;margin-right:8px;
+    max-width: 23%;
+    margin-left: 3.5cm;
+    background: rgb(246, 243, 211);
+    margin-left: 0.1cm;
+    padding: 0.5cm;
+    border-radius: 5px;
+   }
+   .flood img{
+    margin-left: 0% ;
+     width: 100px;
+     height: 80px;
+     padding-top: 0.5cm;
+   }
+   .move h2{
+    font-size: 24px;
+    font: weight 600;
+    line-height: 54px;
+    font-style: semi-bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   }
+   .regis_{
+    padding-top: 3cm;
+    padding-bottom: 5cm;
+    margin-left: 2cm;
+   }
+   .half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    max-width: 35%;
+   }
+   .half-width h1{
+    font-size: 45px;
+    font: weight 700;
+    line-height: 54px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;letter-spacing: 1px; 
+   }
+   .half-width h4{
+    letter-spacing: 2px; 
+   }
+   .paddl{
+    padding-top: 1cm;
+   }
+   .half-width img{
+    width: 456px;
+    height: 477px;
+   }
+   .future{
+   margin-top: 11cm;
+    padding-bottom: 3cm;
+    margin-left: 2cm;
+   }
+   .connect{
+    padding-top: 3.3cm;
+    padding-bottom: 2.5cm;
+   }
+   .vision{
+    margin-top: 10cm;
+   }
+   .vision h1{
+    text-align: center;
+    font-size: 45px;
+    font: weight 700;
+    line-height: 54px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;letter-spacing: 0.5px; 
+   }
+   .vision h4{
+    text-align: center;
+    letter-spacing: 2px; 
+    font-size: 18px;
+   }
+   .trouble{
+    padding-top: 2.3cm;
+    padding-bottom: 2.3cm;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    margin-bottom: 1cm;
+    background: rgb(246, 243, 211);
+    background-position: center;
+    margin-top: 2cm;
+     margin-left: 8cm;
+     margin-right: 8cm;
+   }
+   .last{
+    background: #d1c6c6ef;
+    width: 420px;
+    height: 25px;
+    left: 505px;
+    padding-left: 0.5cm;
+    padding-bottom: 28px;
+    border-radius: 7px;
+    margin-left: 6cm;
+   }
+   #option-3{
+    text-decoration: none;
+    background: #FF5959;
+    border-radius: 0px 7px 7px 0px;
+    padding: 16px 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 19px;
+    font-family: sans-serif;
+    
+   }
+   .email{
+    display:inline-block;margin-right: 8px;
+    margin-right: 7cm;
+    padding-left: 3px;
+    margin-top: 0.4cm;
+    
+   }
+   .login{
+    display:inline-block;margin-right: 8px;
+    background: #cd280f;
+    padding-bottom: 2px;
+
+   }
+  
+    footer h1{
+        color: #FF5959;
+        font-family: 'Lobster';font-size: 36px;
+        
+    }
+    .footer P{
+        font-family: 'Manrope';
+        color:#d9dbe1b7;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        line-height: 125%;
+        padding: 0%;
+    }
+    
+    .footer {
+        padding-top: 0.4cm;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.902);
+        background-size: cover; 
+        background-position: left;
+        width: 100%;
+        padding-bottom: 0.5cm;
+        
+       
+}
+footer img{
+    margin-left: 0% ;
+     width: 30px;
+     height: 30px;
+}
