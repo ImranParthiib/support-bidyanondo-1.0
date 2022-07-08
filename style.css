@@ -25,7 +25,7 @@ body{
 }
  
 #half-width{
-    width:60%;
+    width:55%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
@@ -47,8 +47,9 @@ body{
     color: rgb(251, 251, 251);
     text-size-adjust: 18px;
     line-height: 28px;
-    padding-bottom: 1cm;
-    letter-spacing: 1.6px; 
+    padding-bottom: 1.4cm;
+    letter-spacing: 1.5px;
+    max-width: 79.5%; 
 
 }
 
@@ -56,7 +57,7 @@ body{
     text-decoration: none;
     background: tomato;
     margin-left: 13cm;
-    margin-bottom: 10cm;
+    margin-bottom: 7cm;
     padding: 12px 25px;
     border-radius: 5px;
     color: #ffffff;
