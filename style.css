@@ -45,8 +45,7 @@ h6 {
 
 /* General style */
 .container {
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity here */
+  background-color: rgba(255, 255, 255, 0.8);
   transition: background-color 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -88,37 +87,56 @@ a {
   text-align: center;
   background-image: linear-gradient(
       to bottom,
-      rgba(23, 48, 191, 0),
-      rgba(45, 73, 93, 0.991)
+      rgba(0, 0, 0, 0.645),
+      rgba(17, 16, 16, 0.746)
     ),
     url("/images/banner.o.jpg");
   background-size: cover;
-
-  height: 80vh;
-  color: #fbf5f5;
+  height: 85vh;
 }
 
 .home_container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.home .content {
+  margin: 40px;
+}
 .home .content h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: bolder;
   margin-bottom: 20px;
+  color: #ffffff;
+}
+.home .content p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: hsla(0, 0%, 97%, 0.811);
 }
 .btn {
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 4px 28px;
-  font-size: 24px;
+  font-size: 1.7rem;
   cursor: pointer;
   border-radius: 10px;
+  margin-right: 50px;
 }
-.danger {
-  background-color: #f44336;
-} /* Red */
-.danger:hover {
-  background: #da190b;
+.btn {
+  background-color: hsl(9, 84%, 56%);
+  margin-bottom: 60px;
+}
+.btn:hover {
+  background: hsl(9, 82%, 52%);
+}
+.follow_us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.follow_us a i {
+  font-size: 0.8rem;
+  color: #ffffff;
 }
