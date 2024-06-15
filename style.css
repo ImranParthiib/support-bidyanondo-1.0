@@ -263,7 +263,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 .update h1 {
@@ -278,7 +278,7 @@ header {
   display: flex;
   background-color: rgb(35, 43, 3);
   width: 60%;
-  margin:  0 auto;
+  margin: 0 auto;
   padding: 80px;
   margin-bottom: 100px;
   justify-content: center;
@@ -286,21 +286,20 @@ header {
   font-size: x-large;
   border-radius: 4px;
 }
-.input-field input, button {
+.input-field input,
+button {
   border: 0;
   padding: 5px;
 }
 .input-field input {
-border-top-left-radius: 5px;
-border-bottom-left-radius: 5px;
-background-color: #d9b5b5;
-
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #d9b5b5;
 }
 .input-field button {
-border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
-background-color: #fa4b4b;
-
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #fa4b4b;
 }
 
 .input-email {
