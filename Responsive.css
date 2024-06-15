@@ -1,1 +1,26 @@
- 
+@media screen and (max-width: 1200px) {
+  .logo {
+    width: 25%;
+  }
+  .navbar-link {
+    width: 70%;
+  }
+  .navbar ul,
+  a {
+    font-size: 1.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 2px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-right: 12px;
+  }
+  .navbar .logo img {
+    width: 60%;
+    margin-left: 6px;
+  }
+  .navbar ul,
+  a :hover {
+    color: #ef0000;
+  }
+}

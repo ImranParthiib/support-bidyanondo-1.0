@@ -68,7 +68,7 @@ a {
   list-style: none;
   text-decoration: none;
   color: #000;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
   text-transform: uppercase;
   padding: 10px;
@@ -77,10 +77,21 @@ a {
   margin-right: 12px;
   margin-right: 50px;
 }
+.navbar ul,
+a:hover {
+  color: #f20252;
+  font-weight: bolder;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.navbar-link li {
+  background-color: #fa4b4b;
+}
 .navbar .logo img {
   width: 60%;
   margin-left: 60px;
 }
+
 
 /* !Banner Section styling */
 .home {
@@ -222,7 +233,7 @@ hr {
 }
 
 .message {
-  background-color: rgb(29, 30, 15);
+  background-color: rgb(220, 42, 161);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -336,7 +347,7 @@ header {
 }
 .input-field {
   display: flex;
-  background-color: rgb(35, 43, 3);
+  background-color: rgba(14, 113, 113, 0.473);
   width: 60%;
   margin: 0 auto;
   padding: 80px;
@@ -354,12 +365,12 @@ button {
 .input-field input {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  background-color: #d9b5b5;
+  background-color: #f0d7d7;
 }
 .input-field button {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: #fa4b4b;
+  background-color: #fa4b4be5;
 }
 
 #email {
@@ -371,7 +382,7 @@ button {
 }
 /* ?Footer Style */
 footer {
-  background-color: rgb(6, 13, 38);
+  background-color: rgba(6, 13, 38, 0.925);
   color: #ffffff;
   text-align: center;
   padding: 50px;
