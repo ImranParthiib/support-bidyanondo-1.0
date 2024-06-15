@@ -60,6 +60,7 @@ h6 {
   justify-content: space-between;
   align-items: center;
   margin: 0px 10px 0 10px;
+  height: 60px;
 }
 .navbar ul,
 a {
@@ -90,7 +91,7 @@ a {
       rgba(0, 0, 0, 0.645),
       rgba(17, 16, 16, 0.746)
     ),
-    url("https://shorturl.at/A31Mu");
+    url("images/banner.o.jpg");
   background-size: cover;
   height: 85vh;
 }
@@ -255,3 +256,75 @@ header {
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* ?update section Styling */
+.update {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.update h1 {
+  padding: 18px;
+  font-size: 50px;
+}
+.update p {
+  padding-bottom: 34px;
+  font-size: 18px;
+}
+.input-field {
+  display: flex;
+  background-color: rgb(35, 43, 3);
+  width: 60%;
+  margin:  0 auto;
+  padding: 80px;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  border-radius: 4px;
+}
+.input-field input, button {
+  border: 0;
+  padding: 5px;
+}
+.input-field input {
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+background-color: #d9b5b5;
+
+}
+.input-field button {
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+background-color: #fa4b4b;
+
+}
+
+.input-email {
+  width: 50px;
+}
+
+/* ?Footer Style */
+footer {
+  background-color: rgb(6, 13, 38);
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  height: 200px;
+}
+footer h1 {
+  padding-bottom: 20px;
+  color: #fa4b4b;
+  font-family: "Lobster";
+  font-size: 40px;
+}
+footer P {
+  font-family: "Manrope";
+  color: #d9dbe1b7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
