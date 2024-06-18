@@ -1,9 +1,9 @@
 @media screen and (max-width: 1200px) {
   .logo {
-    width: 25%;
+    width: 20%;
   }
   .navbar-link {
-    width: 70%;
+    width: 60%;
   }
   .navbar ul,
   a {
@@ -22,5 +22,23 @@
   .navbar ul,
   a :hover {
     color: #ef0000;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 3%;
+  }
+  .navbar-link {
+    width: 20%;
+  }
+  .navbar ul,
+  a {
+    font-size: 0.4rem;
+    margin-right: 8px;
+  }
+  .navbar .logo img {
+    width: 80%;
+    margin-left: 4px;
   }
 }

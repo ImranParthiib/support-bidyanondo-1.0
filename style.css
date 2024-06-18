@@ -17,6 +17,8 @@ body {
   background-color: #ffffff;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 img,
@@ -44,6 +46,10 @@ h6 {
 }
 
 /* General style */
+main {
+  width: 100%;
+  margin: 0 auto;
+}
 .container {
   background-color: rgba(255, 255, 255, 0.8);
   transition: background-color 0.3s ease;
@@ -91,7 +97,6 @@ a:hover {
   width: 60%;
   margin-left: 60px;
 }
-
 
 /* !Banner Section styling */
 .home {
