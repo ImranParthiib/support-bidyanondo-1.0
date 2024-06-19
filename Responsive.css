@@ -1,3 +1,4 @@
+/* !Tablet devices */
 @media screen and (max-width: 1200px) {
   .logo {
     width: 20%;
@@ -7,7 +8,7 @@
   }
   .navbar ul,
   a {
-    font-size: 1.0rem;
+    font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
     padding: 2px;
@@ -24,21 +25,81 @@
     color: #ef0000;
   }
 }
-
+/* !Mobile devices */
 @media screen and (max-width: 768px) {
+  .under-development {
+    display: none;
+  }
+  header {
+    height: 40px;
+  }
   .logo {
-    width: 3%;
+    width: 22%;
   }
-  .navbar-link {
-    width: 20%;
+  .navbar {
+    height: 40px;
   }
+
   .navbar ul,
   a {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
+    margin-right: 7px;
+  }
+  .navbar ul,
+  a:hover {
+    font-size: 0.5rem;
     margin-right: 8px;
+    color: #ef0000;
   }
   .navbar .logo img {
     width: 80%;
     margin-left: 4px;
+  }
+
+  /*? banner section styling */
+  .home_container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .home .content {
+    margin: 40px;
+  }
+  .home .content h1 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  .home .content p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  .btn {
+    padding: 2px 10px;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  hr {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .follow_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+  .follow_us a i {
+    font-size: 0.5rem;
+    padding-right: 35px;
+  }
+
+  .donate_content {
+    display: none;
+  }
+  .category {
+    display: none;
   }
 }
