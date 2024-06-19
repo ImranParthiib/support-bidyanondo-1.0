@@ -141,10 +141,10 @@
     margin-bottom: 30px;
   }
   .category {
-    /* display: flex;
-    flex-direction: column; */
-    gap: 0.3rem;
-    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 80%;
     padding-bottom: 2rem;
   }
   .category h1 {
@@ -181,7 +181,7 @@
     width: 80%;
     padding: 45px;
     margin-bottom: 50px;
-    font-size:small;
+    font-size: small;
   }
   .input-field input,
   button {
