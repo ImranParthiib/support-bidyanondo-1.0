@@ -153,17 +153,56 @@
     font-size: 0.8rem;
   }
   .category div:nth-child(1) {
-    padding:30px 10px;
-  
-   
+    padding: 30px 10px;
   }
 
   .category div:nth-child(2) {
     padding: 30px 10px;
-    
   }
 
   .category div:nth-child(3) {
-    padding: 30px 10px; 
+    padding: 30px 10px;
+  }
+
+  /* ?update section Styling */
+  .update {
+    width: 90%;
+  }
+  .update h1 {
+    padding: 10px;
+    font-size: 2rem;
+  }
+  .update p {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .input-field {
+    width: 80%;
+    padding: 45px;
+    margin-bottom: 50px;
+    font-size:small;
+  }
+  .input-field input,
+  button {
+    border: 0;
+    padding: 5px;
+  }
+  .input-field input {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f0d7d7;
+  }
+  .input-field button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #fa4b4be5;
+  }
+
+  #email {
+    width: 100%;
+  }
+  .input-field #submit {
+    width: 100%;
+    cursor: pointer;
   }
 }
