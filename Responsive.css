@@ -145,6 +145,7 @@
     flex-direction: column; */
     gap: 0.3rem;
     width: 95%;
+    padding-bottom: 2rem;
   }
   .category h1 {
     font-size: 1.3rem;
