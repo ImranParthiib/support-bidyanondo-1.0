@@ -128,7 +128,42 @@
   }
 
   /* !-- ?Donate Plan Section --> */
+  .donate-plan {
+    width: 80%;
+  }
+  .donate-plan h1 {
+    padding-top: 20px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .donate-plan p {
+    font-size: 0.7rem;
+    margin-bottom: 30px;
+  }
   .category {
-    display: none;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 0.3rem;
+    width: 95%;
+  }
+  .category h1 {
+    font-size: 1.3rem;
+  }
+  .category p {
+    font-size: 0.8rem;
+  }
+  .category div:nth-child(1) {
+    padding:30px 10px;
+  
+   
+  }
+
+  .category div:nth-child(2) {
+    padding: 30px 10px;
+    
+  }
+
+  .category div:nth-child(3) {
+    padding: 30px 10px; 
   }
 }
